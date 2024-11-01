@@ -22,43 +22,43 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 </head>
 <body>
-    <header>
-        <div id="nav-mobile" class="md:hidden flex w-full px-4 h-[64px] justify-between items-center">
-          <div class="text-primary text-[1.4rem] font-bold">PLans</div>
-          <span class="text-[1.6rem]">
-            <i class="fa-solid fa-bars"></i>
-          </span>
-        </div>
-        <nav
-          class="md:relative md:flex-row md:h-[88px] md:items-center md:justify-between md:px-32 md:translate-x-0 absolute py-4 px-4 w-full flex justify-start items-start flex-col bg-white h-screen top-0 left-0 translate-x-full">
-          <div class="md:hidden block close-nav self-end text-[1.2rem]">
-            <i class="fa-solid fa-xmark"></i>
-          </div>
-          <div class="md:mb-0 text-primary text-[1.6rem] font-bold mb-7">PLans</div>
-          <div id="nav-items" class="md:flex-row md:w-fit flex flex-col gap-7 w-full">
-            <a href="/" class="md:pb-0 md:p-2 md:border-none md:w-fit p-0 pb-2 border-b border-dark-800 w-full text-dark-900">Home</a>
-            <a href="#" class="md:pb-0 md:p-2 md:border-none md:w-fit p-0 pb-2 border-b border-dark-800 w-full text-dark-900">About Us</a>
-            <a href="/clinics.html" class="_active md:pb-0 md:p-2 md:border-none md:w-fit p-0 pb-2 border-b border-dark-800 w-full text-dark-900">Clinics</a>
-            <a href="#" class="md:pb-0 md:p-2 md:border-none md:w-fit p-0 pb-2 border-b border-dark-800 w-full text-dark-900">Service</a>
-            <a href="/blogs.html" class="md:pb-0 md:p-2 md:border-none md:w-fit p-0 pb-2 border-b border-dark-800 w-full text-dark-900">Blog</a>
-          </div>
-          <div class="flex nav-btn gap-7">
-            <a href="#" class="md:inline hidden py-3 px-6 text-dark-900">Sign In</a>
-            <a href="#" class="md:bg-primary-800 md:px-6 md:text-white py-3 px-0 bg-transparent text-dark-900 rounded-full"
-              >Get The App</a
-            >
-          </div>
-          <div class="md:hidden flex mt-8 gap-4 text-dark-900"">
-            <span>EN</span>
-          </div>
-          <div class="md:hidden flex mt-8 gap-4 text-primary text-[1.6rem]">
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-          </div>
-        </nav>
-    </header>
-    <main class="md:mx-32 md:my-10 mx-4 my-6">
+  <header class="relative overflow-hidden md:pb-[96px]  pb-0">
+    <div id="nav-mobile" class="md:hidden flex w-full px-4 h-[64px] justify-between items-center">
+      <div class="text-primary text-[1.4rem] font-bold">PLans</div>
+      <span id="hamburger" class="text-[1.6rem] text-primary">
+        <i class="fa-solid fa-bars"></i>
+      </span>
+    </div>
+    <nav id="navbar"
+      class="xl:px-32 md:flex-row md:h-[88px] md:items-center md:justify-between md:px-16 md:translate-x-0 fixed py-4 px-4 w-full flex justify-start items-start flex-col bg-white h-screen top-0 left-0 translate-x-full transition-all duration-300">
+      <div id="close-nav" class="md:hidden block close-nav self-end text-[1.6rem]">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+      <div class="md:mb-0 text-primary text-[1.6rem] font-bold mb-7">PLans</div>
+      <div id="nav-items" class="md:flex-row md:w-fit flex flex-col gap-7 w-full text-lg">
+        <a href="/" class="md:pb-0 md:p-2 md:border-none md:w-fit p-0 pb-2 border-b border-dark-800 w-full text-dark-900 hover:text-primary">Home</a>
+        <a href="#" class="md:pb-0 md:p-2 md:border-none md:w-fit p-0 pb-2 border-b border-dark-800 w-full text-dark-900 hover:text-primary">About Us</a>
+        <a href="/clinics.html" class="_active md:pb-0 md:p-2 md:border-none md:w-fit p-0 pb-2 border-b border-dark-800 w-full text-dark-900 hover:text-primary">Clinics</a>
+        <a href="#" class="md:pb-0 md:p-2 md:border-none md:w-fit p-0 pb-2 border-b border-dark-800 w-full text-dark-900 hover:text-primary">Service</a>
+        <a href="/blogs.html" class="md:pb-0 md:p-2 md:border-none md:w-fit p-0 pb-2 border-b border-dark-800 w-full text-dark-900 hover:text-primary">Blog</a>
+      </div>
+      <div class="flex nav-btn gap-7 text-lg">
+        <a href="#" class="md:inline hidden py-3 px-6 text-dark-900 hover:text-primary">Sign In</a>
+        <a href="#" class="md:bg-primary-800 md:px-6 md:text-white py-3 px-0 bg-transparent text-dark-900 rounded-full"
+          >Get The App</a
+        >
+      </div>
+      <div class="md:hidden flex mt-8 gap-4 text-dark-900"">
+        <span>EN</span>
+      </div>
+      <div class="md:hidden flex mt-8 gap-4 text-primary text-[1.6rem]">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </nav>
+  </header>
+    <main class="xl:mx-32 md:mx-6 md:my-10 mx-4 my-6">
       <h1 class="md:mb-10 mb-4 text-[2.4rem] text-primary font-bold"
         >Clinics
       </h1>
@@ -106,5 +106,7 @@
         </div>
       </section>
     </main>
+
+    <script src="/script/script.js"></script>
 </body>
 </html>

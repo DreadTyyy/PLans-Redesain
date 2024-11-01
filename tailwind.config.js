@@ -17,10 +17,10 @@ module.exports = {
         "my-gotham": "'Gotham'",
       },
       backgroundImage: {
-        "header-jumbotron": "url('/assets/header jumbotron.png')",
-        "jumbotron-mobile": "url('/assets/jumbotron mobile.png')",
-        "background-balls": "url('/assets/big image bg.png')",
-        "header-image": "url('/assets/header2.png')",
+        "header-jumbotron": "url('assets/header jumbotron.png')",
+        "jumbotron-mobile": "url('assets/jumbotron mobile.png')",
+        "background-balls": "url('assets/big image bg.png')",
+        "header-image": "url('assets/header2.png')",
       },
       boxShadow: {
         footer: "-1px 0 10px 61px rgb(0 0 0 / 0.08)"

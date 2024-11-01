@@ -1,0 +1,49 @@
+/* Scroll box on header jumbotron */
+._scroll-box::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+  
+._scroll-box::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+  
+._scroll-box::-webkit-scrollbar-thumb {
+    background: #3A89FF;
+    border-radius: 10px;
+}
+  
+._scroll-box::-webkit-scrollbar-thumb:hover {
+    background: #346DF6;
+}
+
+/* Process */
+
+._process-list-title::before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #346DF6;
+    border-radius: 50%;
+    left: 0;
+    bottom: 6px;
+}
+
+._process-list-desc::before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    background: #EAEAEA;
+    left: 10px;
+    /* bottom: 6px; */
+}
+
+@media (max-width: 450px) {
+    ._process-list-title::before {
+    width: 20px;
+    height: 20px;
+}
+}

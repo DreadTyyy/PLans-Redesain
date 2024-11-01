@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #346DF6;
+  --dark-900-color: #212121;
+}
+
+* {
+  font-family: "Montserrat";
+  font-style: normal;
+}
+
+/* Navigation Bar */
+#nav-items a._active {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+@media (max-width:450px) {
+  * {
+    /* font-size: 90%; */
+  }
+}

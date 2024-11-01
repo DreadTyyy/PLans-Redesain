@@ -1,0 +1,17 @@
+/* Scroll category */
+._scroll-box::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+  
+._scroll-box::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+._scroll-box::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+  
+._scroll-box::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+}

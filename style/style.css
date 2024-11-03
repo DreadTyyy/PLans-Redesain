@@ -17,9 +17,21 @@
   color: var(--primary-color);
   font-weight: 700;
 }
+.nav_scroll {
+  position: fixed;
+}
+.nav_scroll.active {
+  position: fixed;
+}
 
 @media (max-width:450px) {
   * {
     /* font-size: 90%; */
+  }
+  .nav_scroll {
+    position: fixed;
+  }
+  .nav_scroll.active {
+    position: fixed;
   }
 }

@@ -23,7 +23,7 @@ module.exports = {
         "header-image": "url('/assets/header2.png')",
       },
       boxShadow: {
-        footer: "-1px 0 10px 61px rgb(0 0 0 / 0.08)"
+        footer: "-1px 0 20px 6px rgb(0 0 0 / 0.08)"
       },
       fontSize: {
         base: ["1rem", 1.7],

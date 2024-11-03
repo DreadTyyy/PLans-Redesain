@@ -16,6 +16,7 @@
     <link href="./style/style.css" rel="stylesheet" />
     <link href="./style/clinics.css" rel="stylesheet" />
     <link href="./style/output.css" rel="stylesheet" />
+    <link href="/style/clinics.css" rel="stylesheet">
 
     <link
       rel="stylesheet"
@@ -66,19 +67,25 @@
       <section class="lg:mb-16 mb-8 grid lg:grid-cols-5 md:grid-cols-4 grid-cols-1 lg:gap-7 gap-5">
         <div class="col-span-2 flex flex-col gap-4">
             <label for="country" class="font-bold">Country</label>
-            <select name="country" id="country" class="py-3 px-6 bg-[#EAEAEA] focus:outline-none rounded-lg">
-              <option value="" selected disabled>All Country</option>
-              <option value="indonesia">Indonesia</option>
-              <option value="english">English</option>
-            </select>
+            <div class="_select-wrapper">
+              <select name="country" id="country" class="py-3 px-6 bg-[#EAEAEA] focus:outline-none rounded-lg">
+                <option value="" selected disabled>All Country</option>
+                <option value="indonesia">Indonesia</option>
+                <option value="english">English</option>
+              </select>
+              <i class="fa fa-chevron-down chevron-icon"></i>
+            </div>
         </div>
         <div class="col-span-2 flex flex-col gap-3">
             <label for="country" class="font-bold">Clinics Name</label>
-            <select name="country" id="country" class="py-3 px-6 bg-[#EAEAEA] focus:outline-none rounded-lg">
-              <option value="" selected disabled>All Clinics</option>
-              <option value="indonesia">Indonesia</option>
-              <option value="english">English</option>
-            </select>
+            <div class="_select-wrapper">
+              <select name="country" id="country" class="py-3 px-6 bg-[#EAEAEA] focus:outline-none rounded-lg">
+                <option value="" selected disabled>All Country</option>
+                <option value="indonesia">Indonesia</option>
+                <option value="english">English</option>
+              </select>
+              <i class="fa fa-chevron-down chevron-icon"></i>
+            </div>
         </div>
         <button class="col-span-1 h-fit lg:py-3 py-2 self-end bg-primary text-white rounded-full 2xl:text-[1.2rem] text-base font-bold">
             Search Online

@@ -1,0 +1,22 @@
+._select-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+._select-wrapper select {
+    width: 100%;
+    padding-right: 2rem;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+._select-wrapper .chevron-icon {
+    position: absolute;
+    font-size: 13px;
+    right: 16px; 
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; 
+    color: #333; 
+}

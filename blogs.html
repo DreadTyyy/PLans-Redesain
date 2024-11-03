@@ -21,71 +21,72 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 </head>
-<body class="">
-    <header class="relative overflow-hidden md:pb-[96px]  pb-0">
-      <div id="nav-mobile" class="md:hidden flex w-full px-4 h-[64px] justify-between items-center">
-        <div class="text-primary text-[1.4rem] font-bold">PLans</div>
-        <span id="hamburger" class="text-[1.6rem] text-primary">
-          <i class="fa-solid fa-bars"></i>
-        </span>
+<body>
+  <header id="header" class="relative w-full overflow-hidden pb-0 z-[9999] md:mb-[100px] mb-[88px]">
+    <div id="nav-mobile" class="md:hidden flex bg-white fixed top-0 left-0 w-full px-4 h-[64px] justify-between items-center z-[9999]">
+      <div class="text-primary text-[1.4rem] font-bold">PLans</div>
+      <span id="hamburger" class="text-[1.6rem] text-primary">
+        <i class="fa-solid fa-bars"></i>
+      </span>
+    </div>
+    <nav id="navbar"
+      class="xl:px-32 md:px-6 py-4 px-4 nav_scroll w-full flex md:justify-between justify-start md:items-center items-start md:flex-row flex-col bg-white md:h-[88px] h-screen top-0 left-0 md:translate-x-0 translate-x-full transition-all duration-300 z-[99999] overflow-auto">
+      <div id="close-nav" class="md:hidden block close-nav self-end text-[1.6rem]">
+        <i class="fa-solid fa-xmark"></i>
       </div>
-      <nav id="navbar"
-        class="xl:px-32 md:flex-row md:h-[88px] md:items-center md:justify-between md:px-16 md:translate-x-0 fixed py-4 px-4 w-full flex justify-start items-start flex-col bg-white h-screen top-0 left-0 translate-x-full transition-all duration-300">
-        <div id="close-nav" class="md:hidden block close-nav self-end text-[1.6rem]">
-          <i class="fa-solid fa-xmark"></i>
-        </div>
-        <div class="md:mb-0 text-primary text-[1.6rem] font-bold mb-7">PLans</div>
-        <div id="nav-items" class="md:flex-row md:w-fit flex flex-col gap-7 w-full text-lg">
-          <a href="/" class="md:pb-0 md:p-2 md:border-none md:w-fit p-0 pb-2 border-b border-dark-800 w-full text-dark-900 hover:text-primary">Home</a>
-          <a href="#" class="md:pb-0 md:p-2 md:border-none md:w-fit p-0 pb-2 border-b border-dark-800 w-full text-dark-900 hover:text-primary">About Us</a>
-          <a href="/clinics.html" class="md:pb-0 md:p-2 md:border-none md:w-fit p-0 pb-2 border-b border-dark-800 w-full text-dark-900 hover:text-primary">Clinics</a>
-          <a href="#" class="md:pb-0 md:p-2 md:border-none md:w-fit p-0 pb-2 border-b border-dark-800 w-full text-dark-900 hover:text-primary">Service</a>
-          <a href="/blogs.html" class="_active md:pb-0 md:p-2 md:border-none md:w-fit p-0 pb-2 border-b border-dark-800 w-full text-dark-900 hover:text-primary">Blog</a>
-        </div>
-        <div class="flex nav-btn gap-7 text-lg">
-          <a href="#" class="md:inline hidden py-3 px-6 text-dark-900 hover:text-primary">Sign In</a>
-          <a href="#" class="md:bg-primary-800 md:px-6 md:text-white py-3 px-0 bg-transparent text-dark-900 rounded-full"
-            >Get The App</a
-          >
-        </div>
-        <div class="md:hidden flex mt-8 gap-4 text-dark-900"">
-          <span>EN</span>
-        </div>
-        <div class="md:hidden flex mt-8 gap-4 text-primary text-[1.6rem]">
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-        </div>
-      </nav>
-    </header>
-    <main class="xl:mx-32 md:mx-16 md:my-10 mx-4 my-6">
-      <h1 class="text-[2.4rem] text-primary font-bold"
+      <div class="md:mt-0 mt-8 md:mb-0 mb-8 text-primary text-[1.6rem] font-bold">PLans</div>
+      <div id="nav-items" class="flex md:flex-row flex-col md:gap-7 gap-4 md:w-fit w-full 2xl:text-lg md:text-sm text-base">
+        <a href="/" class="md:p-2 p-0 md:pb-0 pb-3 md:border-none border-b border-[#F6F6F6] md:w-fit w-full text-dark-900 hover:text-primary">Home</a>
+        <a href="#" class="md:p-2 p-0 md:pb-0 pb-3 md:border-none border-b border-[#F6F6F6] md:w-fit w-full text-dark-900 hover:text-primary">About Us</a>
+        <a href="/clinics.html" class="md:p-2 p-0 md:pb-0 pb-3 md:border-none border-b border-[#F6F6F6] md:w-fit w-full text-dark-900 hover:text-primary">Clinics</a>
+        <a href="#" class="md:p-2 p-0 md:pb-0 pb-3 md:border-none border-b border-[#F6F6F6] md:w-fit w-full text-dark-900 hover:text-primary">Service</a>
+        <a href="/blogs.html" class="_active md:p-2 p-0 md:pb-0 pb-3 md:border-none border-b border-[#F6F6F6] md:w-fit w-full text-dark-900 hover:text-primary">Blog</a>
+      </div>
+      <div class="flex nav-btn md:w-fit w-full lg:gap-7 gap-2 2xl:text-lg md:text-sm text-base">
+        <a href="#" class="md:inline hidden py-3 lg:px-6 px-4 text-dark-900 hover:text-primary">Sign In</a>
+        <a href="#" class="xl:px-6 md:px-4 px-0 py-3 md:w-fit w-full md:text-white md:bg-primary-800 bg-transparent text-dark-900 md:rounded-full rounded-none md:border-none border-b border-[#F6F6F6]"
+          >Get The App</a
+        >
+      </div>
+      <div class="md:hidden flex items-center mt-10 gap-5 text-dark-900">
+        <img src="/assets/flags/EN.png" alt="EN"/>
+        <span>EN</span>
+      </div>
+      <div class="md:hidden flex items-center mt-10 gap-5 text-primary text-[1.6rem]">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </nav>
+  </header>
+    <main class="xl:mx-32 md:mx-16 md:my-10 my-6 mx-4">
+      <h1 class="xl:text-[2.5rem] text-[2rem] text-primary font-bold"
         >Blog
       </h1>
       <div 
         id="navigation"
-        class="flex justify-between items-center my-8 flex-wrap gap-6">
-          <div class="_scroll-none 2xl:gap-6 md:flex-wrap md:gap-2 flex gap-4 flex-nowrap overflow-auto text-dark-900">
-            <button class="md:py-3 py-1 px-6 bg-primary rounded-full text-white font-bold"
+        class="md:mt-8 mt-4 md:mb-16 mb-10 flex justify-between items-center lg:flex-row flex-col gap-2">
+          <div class="_scroll-none 2xl:gap-6 md:gap-2 flex gap-4 w-full overflow-auto text-dark-900">
+            <button class="2xl:py-4 py-2 2xl:px-6 px-5 bg-primary rounded-full text-white font-bold whitespace-nowrap"
                 >All
             </button>
-            <button class="md:py-3 py-1 px-6 bg-white rounded-full border border-dark-900"
+            <button class="2xl:py-4 py-2 2xl:px-6 px-5 bg-white rounded-full border border-dark-900 whitespace-nowrap"
                 >Beauty
             </button>
-            <button class="md:py-3 py-1 px-6 bg-white rounded-full border border-dark-900"
+            <button class="2xl:py-4 py-2 2xl:px-6 px-5 bg-white rounded-full border border-dark-900 whitespace-nowrap"
                 >Health
             </button>
-            <button class="md:py-3 py-1 px-6 bg-white rounded-full border border-dark-900"
+            <button class="2xl:py-4 py-2 2xl:px-6 px-5 bg-white rounded-full border border-dark-900 whitespace-nowrap"
                 >Environtment
             </button>
-            <button class="md:py-3 py-1 px-6 bg-white rounded-full border border-dark-900"
+            <button class="2xl:py-4 py-2 2xl:px-6 px-5 bg-white rounded-full border border-dark-900 whitespace-nowrap"
                 >Research & Technology
             </button>
-            <button class="md:py-3 py-1 px-6 bg-white rounded-full border border-dark-900"
+            <button class="2xl:py-4 py-2 2xl:px-6 px-5 bg-white rounded-full border border-dark-900 whitespace-nowrap"
                 >Covid-19
             </button>
           </div>
-          <div class="md:w-fit py-3 min-w-[25%] w-full flex gap-4 border-b border-dark-800">
+          <div class="py-3 min-w-[25%] lg:w-fit w-full flex gap-4 border-b border-dark-800">
             <label for="search" class="font-bold text-dark-900 cursor-pointer"
                 ><i class="fa-solid fa-magnifying-glass"></i>
             </label>
@@ -97,59 +98,59 @@
                 class="w-full focus:outline-none">
           </div>
       </div>
-      <section class="2xl:gap-8 mb-8 grid grid-row-2 grid-cols-4 gap-6">
-        <article class="md:col-span-2 row-span-2 col-span-4">
+      <section class="mb-8 grid grid-row-2 grid-cols-4 xl:gap-7 md:gap-6 gap-5">
+        <article class="lg:col-span-2 col-span-4 row-span-2">
             <a href="/blogs/National population survey launched to help optimize fertility support policies.html" class="group block w-full h-full">
-              <img class="object-cover rounded-3xl mb-6" 
+              <img class="mb-6 w-full object-cover md:rounded-3xl rounded-2xl" 
                 src="assets/berita1.png" alt="berita" loading="lazy">
-              <span class="text-dark-800">January 18, 2022</span>
-              <h3 class="my-2 text-dark-900 font-bold text-[1.2rem] group-hover:text-primary duration-300"
+              <span class="text-dark-800 md:text-base text-sm">January 18, 2022</span>
+              <h3 class="md:my-2 my-1 text-dark-900 font-bold 2xl:text-[1.5rem] text-[1.2rem] group-hover:text-primary duration-300"
                 >National population survey launched to help optimize fertility support policies
               </h3>
-              <p class="text-dark-800 text-ellipsis line-clamp-3"
+              <p class="text-dark-800 md:text-base text-sm text-ellipsis md:line-clamp-3 line-clamp-2"
                 >Aura Linney was 49 when she had her first. Hilary Swank was 48. Chloë Sevigny was 45. If you went off celebrity headlines alone, you’d be forgiven for thinking that most women entered the motherhood game past the age of 40 these days.
               </p>
             </a>
         </article>
-        <article class="row-span-1 col-span-2">
-          <a href="#" class="md:flex-row group flex flex-col 2xl:gap-6 gap-4 w-full h-full">
-            <img class="md:w-1/2 md:rounded-3xl w-full object-cover rounded-2xl" 
-                src="assets/berita1.png" alt="berita" loading="lazy">
+        <article class="row-span-1 md:col-span-2 col-span-4">
+          <a href="#" class="group flex lg:flex-row flex-col 2xl:gap-6 gap-4 w-full h-full">
+            <img class="lg:w-1/2 w-full object-cover md:rounded-3xl rounded-2xl" 
+                src="assets/cover-berita/image.png" alt="Australia at 'crossroads' as fertility rate hits record low, experts say" loading="lazy">
             <div>
               <span class="text-dark-800">January 18, 2022</span>
-              <h3 class="my-2 text-dark-900 font-bold text-[1.2rem] group-hover:text-primary duration-300"
-                >National population survey launched to help optimize fertility support policies
+              <h3 class="my-2 text-dark-900 font-bold 2xl:text-[1.5rem] xl:text-[1.1rem] group-hover:text-primary duration-300"
+                >Australia at 'crossroads' as fertility rate hits record low, experts say
               </h3>
-              <p class="text-dark-800 text-ellipsis line-clamp-3"
-                >Aura Linney was 49 when she had her first. Hilary Swank was 48. Chloë Sevigny was 45. If you went off celebrity headlines alone
+              <p class="text-dark-800 text-ellipsis md:line-clamp-3 line-clamp-2"
+                >Acara Launching Biome Beauty yang mengusung tema Love Your Microbiome, baru saja diselenggarakan pada Selasa, 27 September 2022 dan bertempat di Daun Muda, Menteng, Jakarta Pusat.
               </p>
             </div>
           </a>
         </article>
-        <article class="row-span-1 col-span-2">
-          <a href="#" class="md:flex-row group flex flex-col 2xl:gap-6 gap-4 w-full h-full">
-            <img class="md:w-1/2 md:rounded-3xl w-full object-cover rounded-2xl" 
-              src="assets/berita1.png" alt="berita" loading="lazy">
+        <article class="row-span-1 md:col-span-2 col-span-4">
+          <a href="#" class="group flex lg:flex-row flex-col 2xl:gap-6 gap-4 w-full h-full">
+            <img class="lg:w-1/2 md:rounded-3xl w-full object-cover rounded-2xl" 
+              src="assets/cover-berita/image (1).png" alt="Study suggests chain fertility clinics improve IVF outcomes" loading="lazy">
             <div>
               <span class="text-dark-800">January 18, 2022</span>
-              <h3 class="my-2 text-dark-900 font-bold text-[1.2rem] group-hover:text-primary duration-300"
-                >National population survey launched to help optimize fertility support policies
+              <h3 class="my-2 text-dark-900 font-bold 2xl:text-[1.5rem] xl:text-[1.1rem] group-hover:text-primary duration-300"
+                >Study suggests chain fertility clinics improve IVF outcomes
               </h3>
-              <p class="text-dark-800 text-ellipsis line-clamp-3"
-                >Aura Linney was 49 when she had her first. Hilary Swank was 48. Chloë Sevigny was 45. If you went off celebrity headlines alone
+              <p class="text-dark-800 text-ellipsis md:line-clamp-3 line-clamp-2"
+                >Acara Launching Biome Beauty yang mengusung tema Love Your Microbiome, baru saja diselenggarakan pada Selasa, 27 September 2022 dan bertempat di Daun Muda, Menteng, Jakarta Pusat.
               </p>
             </div>
           </a>
         </article>
       </section>
-      <section class="md:grid-cols-3 mb-16 grid grid-cols-1 gap-8">
-        <article class="2xl:p-10 col-span-1 p-8 border border-[#EAEAEA] rounded-3xl">
+      <section class="lg:mb-16 mb-10 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-8 gap-5">
+        <article class="2xl:p-10 p-8 col-span-1 border border-[#EAEAEA] rounded-3xl">
             <a href="#" class="group block w-full h-full"> 
-              <img class="object-cover mb-6" 
+              <img class="object-cover md:mb-8 mb-4" 
                 src="assets/berita1.png" alt="berita" loading="lazy">
               <div class="flex flex-col gap-3">
                 <span class="text-dark-800">January 18, 2022</span>
-                <h3 class="my-2 text-dark-900 font-bold text-[1.2rem] group-hover:text-primary duration-300"
+                <h3 class="md:my-2 my-0 text-dark-900 font-bold text-[1.2rem] group-hover:text-primary duration-300"
                     >National population survey launched to help optimize fertility support policies
                 </h3>
                 <p class="text-dark-800 text-ellipsis line-clamp-2"
@@ -159,13 +160,13 @@
               </div>
             </a>
         </article>
-        <article class="2xl:p-10 col-span-1 p-8 border border-[#EAEAEA] rounded-3xl">
+        <article class="2xl:p-10 p-8 col-span-1 border border-[#EAEAEA] rounded-3xl">
             <a href="#" class="group block w-full h-full"> 
-              <img class="object-cover mb-6" 
+              <img class="object-cover md:mb-8 mb-4" 
                 src="assets/berita1.png" alt="berita" loading="lazy">
               <div class="flex flex-col gap-3">
                 <span class="text-dark-800">January 18, 2022</span>
-                <h3 class="my-2 text-dark-900 font-bold text-[1.2rem] group-hover:text-primary duration-300"
+                <h3 class="md:my-2 my-0 text-dark-900 font-bold text-[1.2rem] group-hover:text-primary duration-300"
                     >National population survey launched to help optimize fertility support policies
                 </h3>
                 <p class="text-dark-800 text-ellipsis line-clamp-2"
@@ -175,13 +176,13 @@
               </div>
             </a>
         </article>
-        <article class="2xl:p-10 col-span-1 p-8 border border-[#EAEAEA] rounded-3xl">
+        <article class="2xl:p-10 p-8 col-span-1 border border-[#EAEAEA] rounded-3xl">
             <a href="#" class="group block w-full h-full"> 
-              <img class="object-cover mb-6" 
+              <img class="object-cover md:mb-8 mb-4" 
                 src="assets/berita1.png" alt="berita" loading="lazy">
               <div class="flex flex-col gap-3">
                 <span class="text-dark-800">January 18, 2022</span>
-                <h3 class="my-2 text-dark-900 font-bold text-[1.2rem] group-hover:text-primary duration-300"
+                <h3 class="md:my-2 my-0 text-dark-900 font-bold text-[1.2rem] group-hover:text-primary duration-300"
                     >National population survey launched to help optimize fertility support policies
                 </h3>
                 <p class="text-dark-800 text-ellipsis line-clamp-2"
@@ -191,13 +192,13 @@
               </div>
             </a>
         </article>
-        <article class="2xl:p-10 col-span-1 p-8 border border-[#EAEAEA] rounded-3xl">
+        <article class="2xl:p-10 p-8 col-span-1 border border-[#EAEAEA] rounded-3xl">
             <a href="#" class="group block w-full h-full"> 
-              <img class="object-cover mb-6" 
+              <img class="object-cover md:mb-8 mb-4" 
                 src="assets/berita1.png" alt="berita" loading="lazy">
               <div class="flex flex-col gap-3">
                 <span class="text-dark-800">January 18, 2022</span>
-                <h3 class="my-2 text-dark-900 font-bold text-[1.2rem] group-hover:text-primary duration-300"
+                <h3 class="md:my-2 my-0 text-dark-900 font-bold text-[1.2rem] group-hover:text-primary duration-300"
                     >National population survey launched to help optimize fertility support policies
                 </h3>
                 <p class="text-dark-800 text-ellipsis line-clamp-2"
@@ -207,13 +208,13 @@
               </div>
             </a>
         </article>
-        <article class="2xl:p-10 col-span-1 p-8 border border-[#EAEAEA] rounded-3xl">
+        <article class="2xl:p-10 p-8 col-span-1 border border-[#EAEAEA] rounded-3xl">
             <a href="#" class="group block w-full h-full"> 
-              <img class="object-cover mb-6" 
+              <img class="object-cover md:mb-8 mb-4" 
                 src="assets/berita1.png" alt="berita" loading="lazy">
               <div class="flex flex-col gap-3">
                 <span class="text-dark-800">January 18, 2022</span>
-                <h3 class="my-2 text-dark-900 font-bold text-[1.2rem] group-hover:text-primary duration-300"
+                <h3 class="md:my-2 my-0 text-dark-900 font-bold text-[1.2rem] group-hover:text-primary duration-300"
                     >National population survey launched to help optimize fertility support policies
                 </h3>
                 <p class="text-dark-800 text-ellipsis line-clamp-2"
@@ -223,13 +224,13 @@
               </div>
             </a>
         </article>
-        <article class="2xl:p-10 col-span-1 p-8 border border-[#EAEAEA] rounded-3xl">
+        <article class="2xl:p-10 p-8 col-span-1 border border-[#EAEAEA] rounded-3xl">
             <a href="#" class="group block w-full h-full"> 
-              <img class="object-cover mb-6" 
+              <img class="object-cover md:mb-8 mb-4" 
                 src="assets/berita1.png" alt="berita" loading="lazy">
               <div class="flex flex-col gap-3">
                 <span class="text-dark-800">January 18, 2022</span>
-                <h3 class="my-2 text-dark-900 font-bold text-[1.2rem] group-hover:text-primary duration-300"
+                <h3 class="md:my-2 my-0 text-dark-900 font-bold text-[1.2rem] group-hover:text-primary duration-300"
                     >National population survey launched to help optimize fertility support policies
                 </h3>
                 <p class="text-dark-800 text-ellipsis line-clamp-2"
@@ -257,12 +258,51 @@
             ><i class="fa-solid fa-chevron-right"></i>
         </a>
       </div>
-      <section class="mt-20 py-16 px-4 grid place-items-center rounded-3xl bg-primary text-white text-center">
-        <h2 class="font-bold text-[2.4rem] mb-3 leading-[1.2]">Book Consultation</h2>
-        <p class="max-w-[420px] mb-10">Lorem ipsum dolor sit amet consectetur. Fringilla velit pulvinar et viverra magna. Donec elit ipsum sem suspendisse neque scelerisque ullamcorper lectu</p>
-        <a href="#" class="py-3 px-6 border border-white rounded-full font-bold">Book Consultation</a>
+      <section class="mt-20 xl:py-16 py-10 px-4 grid place-items-center rounded-3xl bg-primary text-white text-center">
+        <h2 class="font-bold xl:text-[2.5rem] text-[2rem] mb-3 leading-[1.2]">Book Consultation</h2>
+        <p class="lg:max-w-[40%] max-w-[450px] lg:mb-10 mb-6">Lorem ipsum dolor sit amet consectetur. Fringilla velit pulvinar et viverra magna. Donec elit ipsum sem suspendisse neque scelerisque ullamcorper lectu</p>
+        <a href="#" class="lg:py-3 py-2 px-6 border border-white rounded-full font-bold">Book Consultation</a>
       </section>
     </main>
+    <footer class="w-full bg-white xl:px-32 md:px-16 px-4 pt-12 pb-8">
+      <section class="md:mb-8 mb-4 flex lg:flex-row flex-col lg:gap-0 md:gap-8 gap-6 justify-between">
+        <div class="lg:min-w-[350px] w-full">
+          <p class="md:mb-4 mb-3 text-primary font-bold text-[1.4rem]">PLans</p>
+          <p class="text-dark-900 md:text-[1.1rem] text-base  max-w-[350px]"
+            >PLans is lorem ipsum dolor sit amet consectetur. Fringilla velit pulvinar et viverra magna. Donec elit ipsum sem suspendisse neque scelerisque ullamcorper lectus.
+          </p>
+        </div>
+        <div class="flex flex-col gap-3 text-dark-900 lg:min-w-[350px] w-full">
+          <h5 class="font-bold">Menu</h5>
+          <a href="/" class="hover:text-primary hover:font-medium transition-all duration-100">Home</a>
+          <a href="#" class="hover:text-primary hover:font-medium transition-all duration-100">About</a>
+          <a href="/clinics.html" class="hover:text-primary hover:font-medium transition-all duration-100">Clinics</a>
+          <a href="#" class="hover:text-primary hover:font-medium transition-all duration-100">Services</a>
+          <a href="#" class="hover:text-primary hover:font-medium transition-all duration-100">Contact</a>
+        </div>
+        <div class="flex flex-col gap-3 text-dark-900 lg:min-w-[350px] w-full">
+          <h5 class="font-bold">Find Us</h5>
+          <p class="text-dark-800">Mon - Sat : 8am - 9pm</p>
+          <p>Jl. Merdeka Raya No.73B, Bali</p>
+          <p class="text-dark-800">Contact Us</p>
+          <a href="mailto:plans@support.com" class="hover:text-primary hover:font-medium transition-all duration-100"
+            >plans@support.com</a>
+          <a href="https://wa.me/6288888888888" class="hover:text-primary hover:font-medium transition-all duration-100"
+            >(+62) 888 8888 8888</a>
+        </div>
+      </section>
+      <div class="md:py-4 py-3 flex md:flex-row flex-col justify-between lg:items-center items-start border-t border-[#8A8A8A]">
+        <div class="flex md:flex-row flex-col flex-wrap content-start text-left gap-4 text-dark-900">
+          <p>Copyright © 2024. All right reserved</p>
+          <a href="#" class="text-primary">Privacy Policy</a>
+        </div>
+        <div class="lg:mt-0 mt-4 flex gap-4 text-primary text-[1.6rem]">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+    </footer>
 
     <script src="./script/script.js"></script>
 </body>

@@ -34,4 +34,14 @@
   .nav_scroll.active {
     position: fixed;
   }
+  ._dropdown-btn.active ~ ul {
+  max-height: fit-content;
+  }
+  ._dropdown-btn.active > span > i {
+    rotate: 180deg;
+  }
+  ._dropdown-btn ~ ul {
+    position: static;
+    padding: 0 8px;
+  }
 }

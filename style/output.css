@@ -606,6 +606,10 @@ video {
   top: 50%;
 }
 
+.top-full {
+  top: 100%;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -763,6 +767,10 @@ video {
   display: block;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
 }
@@ -843,6 +851,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.min-w-40 {
+  min-width: 10rem;
 }
 
 .min-w-\[25\%\] {
@@ -1468,6 +1480,20 @@ video {
   .nav_scroll.active {
     position: fixed;
   }
+
+  ._dropdown-btn.active ~ ul {
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+  }
+
+  ._dropdown-btn.active > span > i {
+    rotate: 180deg;
+  }
+
+  ._dropdown-btn ~ ul {
+    position: static;
+    padding: 0 8px;
+  }
 }
 
 .placeholder\:font-bold::-moz-placeholder {
@@ -1476,6 +1502,10 @@ video {
 
 .placeholder\:font-bold::placeholder {
   font-weight: 700;
+}
+
+.hover\:bg-primary-800\/20:hover {
+  background-color: rgb(58 137 255 / 0.2);
 }
 
 .hover\:font-medium:hover {
@@ -1696,6 +1726,10 @@ video {
     gap: 2rem;
   }
 
+  .md\:overflow-visible {
+    overflow: visible;
+  }
+
   .md\:rounded-3xl {
     border-radius: 1.5rem;
   }
@@ -1787,6 +1821,10 @@ video {
     padding-bottom: 3.5rem;
   }
 
+  .md\:pb-2 {
+    padding-bottom: 0.5rem;
+  }
+
   .md\:pb-28 {
     padding-bottom: 7rem;
   }
@@ -1861,6 +1899,34 @@ video {
   .md\:text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+
+  .md\:shadow-md {
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+
+  .group:hover .md\:group-hover\:max-h-fit {
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+  }
+
+  .group:hover .md\:group-hover\:border {
+    border-width: 1px;
+  }
+
+  .group:hover .md\:group-hover\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .group:hover .md\:group-hover\:pl-2 {
+    padding-left: 0.5rem;
+  }
+
+  .group:hover .md\:group-hover\:pr-2 {
+    padding-right: 0.5rem;
   }
 }
 

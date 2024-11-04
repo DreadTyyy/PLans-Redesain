@@ -18,6 +18,15 @@ accordions.forEach(accordion => {
     })
 });
 
+const dropdownButtons = document.querySelectorAll("._dropdown-btn");
+
+dropdownButtons.forEach(dropdown => {
+    dropdown.addEventListener("click", () => {
+        dropdown.classList.toggle("active");
+        console.log('halo')
+    })
+});
+
 const hamburger = document.getElementById("hamburger");
 const closeNav = document.getElementById("close-nav")
 const navigationBar = document.getElementById("navbar");

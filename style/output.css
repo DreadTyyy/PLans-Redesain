@@ -840,6 +840,10 @@ video {
   max-height: 450px;
 }
 
+.max-h-full {
+  max-height: 100%;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -1129,10 +1133,6 @@ video {
 
 .bg-header-image {
   background-image: url('/assets/header2.png');
-}
-
-.bg-header-ivf {
-  background-image: url('/assets/ivf header.png');
 }
 
 .bg-cover {
@@ -1696,17 +1696,17 @@ video {
     width: 50%;
   }
 
-  .md\:w-fit {
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-
   .md\:w-\[40\%\] {
     width: 40%;
   }
 
   .md\:w-\[60\%\] {
     width: 60%;
+  }
+
+  .md\:w-fit {
+    width: -moz-fit-content;
+    width: fit-content;
   }
 
   .md\:max-w-full {
@@ -2160,6 +2160,10 @@ video {
     height: 4rem;
   }
 
+  .xl\:h-\[88px\] {
+    height: 88px;
+  }
+
   .xl\:min-h-screen {
     min-height: 100vh;
   }
@@ -2170,6 +2174,14 @@ video {
 
   .xl\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .xl\:flex-row {
+    flex-direction: row;
+  }
+
+  .xl\:flex-nowrap {
+    flex-wrap: nowrap;
   }
 
   .xl\:gap-7 {

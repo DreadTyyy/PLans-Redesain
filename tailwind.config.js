@@ -21,6 +21,7 @@ module.exports = {
         "jumbotron-mobile": "url('/assets/jumbotron mobile.png')",
         "background-balls": "url('/assets/big image bg.png')",
         "header-image": "url('/assets/header2.png')",
+        "header-ivf": "url('/assets/ivf header.png')"
       },
       boxShadow: {
         footer: "-1px 0 20px 6px rgb(0 0 0 / 0.08)"

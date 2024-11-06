@@ -590,12 +590,20 @@ video {
   top: -44px;
 }
 
+.bottom-32 {
+  bottom: 8rem;
+}
+
 .left-0 {
   left: 0px;
 }
 
 .left-8 {
   left: 2rem;
+}
+
+.right-8 {
+  right: 2rem;
 }
 
 .top-0 {
@@ -785,6 +793,10 @@ video {
 
 .h-10 {
   height: 2.5rem;
+}
+
+.h-48 {
+  height: 12rem;
 }
 
 .h-\[100px\] {
@@ -1035,8 +1047,16 @@ video {
   border-bottom-width: 1px;
 }
 
+.border-l {
+  border-left-width: 1px;
+}
+
 .border-t {
   border-top-width: 1px;
+}
+
+.border-t-0 {
+  border-top-width: 0px;
 }
 
 .border-\[\#8A8A8A\] {
@@ -1111,6 +1131,10 @@ video {
   background-image: url('/assets/header2.png');
 }
 
+.bg-header-ivf {
+  background-image: url('/assets/ivf header.png');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -1152,6 +1176,10 @@ video {
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .p-8 {
@@ -1254,8 +1282,16 @@ video {
   padding-left: 2.5rem;
 }
 
+.pl-12 {
+  padding-left: 3rem;
+}
+
 .pl-2 {
   padding-left: 0.5rem;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
 }
 
 .pt-12 {
@@ -1605,6 +1641,14 @@ video {
     margin-top: 0px;
   }
 
+  .md\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .md\:mt-3 {
+    margin-top: 0.75rem;
+  }
+
   .md\:mt-4 {
     margin-top: 1rem;
   }
@@ -1657,6 +1701,14 @@ video {
     width: fit-content;
   }
 
+  .md\:w-\[40\%\] {
+    width: 40%;
+  }
+
+  .md\:w-\[60\%\] {
+    width: 60%;
+  }
+
   .md\:max-w-full {
     max-width: 100%;
   }
@@ -1670,8 +1722,16 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .md\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 
   .md\:flex-row {
@@ -1736,6 +1796,14 @@ video {
 
   .md\:rounded-full {
     border-radius: 9999px;
+  }
+
+  .md\:border-l-0 {
+    border-left-width: 0px;
+  }
+
+  .md\:border-t {
+    border-top-width: 1px;
   }
 
   .md\:border-none {
@@ -1805,6 +1873,11 @@ video {
     padding-bottom: 2rem;
   }
 
+  .md\:py-9 {
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+  }
+
   .md\:pb-0 {
     padding-bottom: 0px;
   }
@@ -1835,6 +1908,10 @@ video {
 
   .md\:pb-4 {
     padding-bottom: 1rem;
+  }
+
+  .md\:pl-0 {
+    padding-left: 0px;
   }
 
   .md\:pl-16 {
@@ -1871,6 +1948,10 @@ video {
 
   .md\:text-left {
     text-align: left;
+  }
+
+  .md\:text-center {
+    text-align: center;
   }
 
   .md\:text-\[1\.1rem\] {
@@ -2045,6 +2126,10 @@ video {
     background-image: url('/assets/header jumbotron.png');
   }
 
+  .lg\:p-10 {
+    padding: 2.5rem;
+  }
+
   .lg\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -2058,6 +2143,10 @@ video {
   .lg\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+  }
+
+  .lg\:text-\[1\.2rem\] {
+    font-size: 1.2rem;
   }
 }
 
@@ -2130,11 +2219,20 @@ video {
   .xl\:text-\[4rem\] {
     font-size: 4rem;
   }
+
+  .xl\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }
 
 @media (min-width: 1536px) {
   .\32xl\:h-24 {
     height: 6rem;
+  }
+
+  .\32xl\:h-56 {
+    height: 14rem;
   }
 
   .\32xl\:max-h-12 {

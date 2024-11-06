@@ -1,0 +1,36 @@
+._circle-inner {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 24px;
+    height: 24px;
+    background-color: #346DF6;
+    border-radius: 999px;
+}
+._circle-outer {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background-color: #F6F6F6;
+    border: 1px solid #346DF6;
+    border-radius: 999px;
+}
+
+@media (max-width: 450px) {
+    ._circle-inner, ._circle-outer {
+        top: 50%;
+        left: 0;
+    }
+    ._circle-inner {
+        width: 20px;
+        height: 20px;
+    }
+    ._circle-outer {
+        width: 32px;
+        height: 32px;
+    }
+}

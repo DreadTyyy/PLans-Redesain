@@ -3,6 +3,9 @@ const accordions = document.querySelectorAll("._accordion");
 accordions.forEach(accordion => {
     accordion.addEventListener("click", () => {
         const panel = accordion.nextElementSibling;
+        // const heightPanel = panel.getBoundingClientRect().height
+        console.log(panel.offsetHeight + "px");
+        
         const chevronDown = accordion.querySelector(".fa-chevron-down")
         if (panel.style.maxHeight) {
             panel.style.maxHeight = null; 
@@ -10,7 +13,7 @@ accordions.forEach(accordion => {
             panel.style.paddingBottom = null;
             chevronDown.style.rotate = 0 + "deg";
         } else {
-            panel.style.maxHeight = panel.scrollHeight + "px"
+            panel.style.maxHeight = 100 + "%"
             panel.style.paddingTop = 24 + "px";
             panel.style.paddingBottom = 24 + "px";
             chevronDown.style.rotate = 180 + "deg"

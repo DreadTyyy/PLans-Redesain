@@ -667,6 +667,11 @@ video {
   margin-right: 1rem;
 }
 
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
 .my-0 {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -1160,6 +1165,10 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
+.border-opacity-30 {
+  --tw-border-opacity: 0.3;
+}
+
 .bg-\[\#F6F6F6\] {
   --tw-bg-opacity: 1;
   background-color: rgb(246 246 246 / var(--tw-bg-opacity));
@@ -1389,6 +1398,10 @@ video {
 
 .pt-9 {
   padding-top: 2.25rem;
+}
+
+.pb-12 {
+  padding-bottom: 3rem;
 }
 
 .text-left {
@@ -2312,10 +2325,6 @@ video {
     max-height: 256px;
   }
 
-  .lg\:max-h-\[342px\] {
-    max-height: 342px;
-  }
-
   .lg\:w-1\/2 {
     width: 50%;
   }
@@ -2410,6 +2419,14 @@ video {
 
   .lg\:leading-plans-smd {
     line-height: 1.8rem;
+  }
+
+  .lg\:leading-plans-nmd {
+    line-height: 3rem;
+  }
+
+  .lg\:leading-plans-sxl {
+    line-height: 2rem;
   }
 }
 
@@ -2624,5 +2641,9 @@ video {
   .\32xl\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .\32xl\:text-\[94px\] {
+    font-size: 94px;
   }
 }

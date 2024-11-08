@@ -41,6 +41,14 @@
     /* bottom: 6px; */
 }
 
+/* Consultation */
+._input-consultation::placeholder {
+    color: #737373;
+    opacity: 1; 
+    font-family: "GothamBold";
+    letter-spacing: -0.06em;
+}
+
 @media (max-width: 450px) {
     ._process-list-title::before {
     width: 20px;

@@ -2,14 +2,62 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Gotham";
+  src: url("/assets/font/gotham/Gotham Book.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Font bold */
+@font-face {
+    font-family: 'GothamBold';
+    src: url("/assets/font/gotham/Gotham Bold.otf") format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Font medium */
+@font-face {
+    font-family: 'GothamMedium';
+    src: url("/assets/font/gotham/Gotham Medium.otf") format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+/* Font medium italic */
+@font-face {
+    font-family: 'GothamMediumItalic';
+    src: url("/assets/font/gotham/Gotham Medium Italic.otf") format('opentype');
+    font-weight: 500;
+}
+/* Font italic */
+@font-face {
+    font-family: 'GothamItalic';
+    src: url("/assets/font/gotham/Gotham Thin Italic.otf") format('opentype');
+    font-weight: 500;
+}
+
 :root {
   --primary-color: #346DF6;
   --dark-900-color: #212121;
 }
 
-* {
-  font-family: "Montserrat";
+._font-normal {
+  font-family: "Gotham";
   font-style: normal;
+}
+._font-normal-italic {
+  font-family: "GothamItalic";
+}
+
+._font-bold {
+  font-family: "GothamBold";
+}
+._font-medium {
+  font-family: "GothamMedium";
+}
+._font-medium-italic {
+  font-family: "GothamMediumItalic";
 }
 
 /* Navigation Bar */

@@ -48,16 +48,21 @@
 }
 ._font-normal-italic {
   font-family: "GothamItalic";
+  font-style: italic;
 }
 
 ._font-bold {
   font-family: "GothamBold";
+  font-weight: 700;
 }
 ._font-medium {
   font-family: "GothamMedium";
+  font-weight: 500;
 }
 ._font-medium-italic {
   font-family: "GothamMediumItalic";
+  font-weight: 500;
+  font-style: italic;
 }
 
 /* Navigation Bar */

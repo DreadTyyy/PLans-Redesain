@@ -33,7 +33,7 @@
 /* Font italic */
 @font-face {
     font-family: 'GothamItalic';
-    src: url("/assets/font/gotham/Gotham Thin Italic.otf") format('opentype');
+    src: url("/assets/font/gotham/Gotham Book Italic.ttf") format('opentype');
     font-weight: 500;
 }
 

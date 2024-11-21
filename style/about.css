@@ -1,0 +1,19 @@
+/* Scroll box on header jumbotron */
+._scroll-box::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+  
+._scroll-box::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+  
+._scroll-box::-webkit-scrollbar-thumb {
+    background: #3A89FF;
+    border-radius: 10px;
+}
+  
+._scroll-box::-webkit-scrollbar-thumb:hover {
+    background: #346DF6;
+}

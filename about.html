@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+
+    <link rel="canonical" href="https://" />
+
+    <meta name="keywords" content="" />
+    <meta name="author" content="PLans" />
+    <meta charset="UTF-8" />
+
+    <meta name="Description" content="" />
+    <meta property="og:title" content="PLans" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="https://" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="PLans" />
+
+    <link href="./style/style.css" rel="stylesheet" />
+    <link href="./style/about.css" rel="stylesheet" />
+    <link href="./style/output.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="_font-normal">
+    <header id="header" class="relative w-full overflow-hidden pb-0 z-[9999] md:mb-[88px] mb-[64px]">
+      <div id="nav-mobile" class="md:hidden flex bg-white fixed top-0 left-0 w-full px-6 h-[64px] justify-between items-center z-[9999]">
+        <div class="_font-bold text-primary text-[1.4rem] -tracking-6">PLans</div>
+        <span id="hamburger" class="text-[1.6rem] text-primary">
+          <i class="fa-solid fa-bars"></i>
+        </span>
+      </div>
+      <nav id="navbar"
+        class="xl:px-32 md:px-6 py-4 px-6 nav_scroll w-full flex md:justify-between justify-start md:items-center items-start md:flex-row flex-col bg-white md:h-[88px] h-screen top-0 left-0 md:translate-x-0 translate-x-full transition-all duration-300 z-[99999] md:overflow-visible overflow-auto">
+        <div id="close-nav" class="md:hidden block close-nav self-end text-[1.6rem]">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="_font-bold md:mt-0 mt-8 md:mb-0 mb-8 text-primary text-[1.8rem] -tracking-6">
+          <a href="/">PLans</a>
+        </div>
+        <div id="nav-items" class="flex md:flex-row flex-col md:gap-7 gap-4 md:w-fit w-full 2xl:text-lg md:text-sm text-base">
+          <div class="relative group md:w-fit w-full">
+            <div class="_dropdown-btn md:pb-2 md:block flex justify-between items-center w-full">
+              <a href="/" class="md:p-3 p-0 md:pb-0 pb-3 md:border-none border-b border-[#F6F6F6] md:w-fit w-full text-dark-900 hover:text-primary -tracking-6">Home</a>
+            </div>
+          </div>
+          <div class="relative group md:w-fit w-full">
+            <div class="_dropdown-btn md:pb-2 md:block flex justify-between items-center w-full">
+              <a href="#" class="md:p-3 p-0 md:pb-0 pb-3 md:border-none border-b border-[#F6F6F6] md:w-fit w-full text-dark-900 hover:text-primary -tracking-6">About Us</a>  
+            </div>
+          </div>
+          <div class="relative group md:w-fit w-full">
+            <div class="_dropdown-btn md:pb-2 md:block flex justify-between items-center w-full">
+              <a href="/clinics.html" class="md:p-3 p-0 md:pb-0 pb-3 md:border-none border-b border-[#F6F6F6] md:w-fit w-full text-dark-900 hover:text-primary -tracking-6">Clinics</a>
+            </div>
+          </div>
+          <div class="relative group md:w-fit w-full">
+            <div class="_dropdown-btn md:pb-2 md:block flex justify-between items-center w-full">
+              <a href="#" class="_active md:p-3 p-0 md:pb-0 pb-3 md:border-none border-b border-[#F6F6F6] md:w-fit w-full text-dark-900 hover:text-primary -tracking-6">Service</a>
+              <span class="md:hidden bloc3 text-sm"><i class="fa fa-chevron-down chevron-icon transition-all duration-300"></i></span>
+            </div>
+            <ul class="md:group-hover:pl-2 md:group-hover:pr-2 md:group-hover:py-5 absolute top-full left-0 bg-white w-full min-w-40 rounded-xl md:shadow-md md:group-hover:border border-[#F6F6F6] max-h-0 md:group-hover:max-h-fit overflow-hidden transition-all duration-100">
+              <li>
+                <a href="/ivf.html" 
+                  class="p-2 hover:bg-primary-800/20 w-full inline-block -tracking-6">IVF</a>
+              </li>
+            </ul>
+          </div>
+          <div class="relative group md:w-fit w-full">
+            <div class="_dropdown-btn md:pb-2 md:block flex justify-between items-center w-full">
+              <a href="/blogs.html" class="md:p-3 p-0 md:pb-0 pb-3 md:border-none border-b border-[#F6F6F6] md:w-fit w-full text-dark-900 hover:text-primary -tracking-6">Blog</a>
+            </div>
+          </div>
+        </div>
+        <div class="flex nav-btn md:w-fit w-full lg:gap-7 gap-2 2xl:text-lg md:text-sm text-base">
+          <a href="#" class="md:inline hidden py-3 lg:px-6 px-4 text-dark-900 hover:text-primary -tracking-6">Sign In</a>
+          <a href="#" class="xl:px-6 md:px-4 px-0 py-3 md:w-fit w-full md:text-white md:bg-primary-800 bg-transparent text-dark-900 md:rounded-full rounded-none md:border-none border-b border-[#F6F6F6] -tracking-3"
+            >Get The App</a
+          >
+        </div>
+        <div class="md:hidden flex items-center mt-10 gap-5 text-dark-900">
+          <img src="/assets/flags/EN.png" alt="EN"/>
+          <span>EN</span>
+        </div>
+        <div class="md:hidden flex items-center mt-10 gap-5 text-primary text-[1.6rem]">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </nav>
+    </header>
+    <div
+        class="xl:px-32 md:px-16 px-6 pt-8 md:pb-28 pb-16 flex md:flex-row flex-col md:justify-center justify-start items-center bg-header-image max-w-full xl:min-h-screen h-fit bg-left bg-cover gap-4">
+        <div class="md:w-1/2 md:text-left w-full text-center">
+          <h1 class="_font-bold md:mb-12 mb-3 text-primary 2xl:text-[94px] xl:text-[4rem] text-[2.3rem] lg:leading-[99px] leading-snug -tracking-6"
+            >Empowering Women Through Knowledge and Innovation
+          </h1>
+          <div class="_font-medium md:mb-20 mb-4 2xl:text-[1.5rem] xl:text-[1.1rem] text-sm">
+            <a href="#" class="2xl:py-6 xl:py-4 py-2 lg:px-8 px-3 bg-primary-800 text-white rounded-full -tracking-3"
+              >Book a Consultation 
+              <span class="lg:inline hidden">
+                <i class="fa-solid fa-arrow-right-long pl-2"></i>
+              </span>  
+            </a>
+          </div>
+        </div>
+        <div class="md:w-1/2 w-full h-full">
+          <img src="assets/about us header.png" alt="header about"
+            class="w-full h-full object-contain">
+        </div>
+    </div>
+    <main class="bg-[#F6F6F6] relative z-10">
+      <section id="profile" 
+        class="relative xl:px-32 md:px-16 px-6 md:pt-28 pt-14 overflow-hidden">
+        <img src="assets/blueball.png" alt="blueball" loading="lazy"
+            class="absolute w-56 h-auto object-contain left-8 top-1/2 -translate-y-1/2 z-0">
+        <img src="assets/blueball.png" alt="blueball" loading="lazy"
+            class="absolute w-80 object-contain right-10 bottom-0 z-0">
+        <div class="relative 2xl:pb-32 xl:pb-28 pb-0 z-50 col-span-2">
+          <h2 class="_font-bold md:mb-7 mb-2 text-primary 2xl:text-[4rem] xl:text-[3rem] text-2xl leading-[1.2] -tracking-6"
+            >Get Closer to Us</h2>
+          <p class="text-dark-500 2xl:text-[1.5rem] xl:text-[1.1rem] text-sm lg:leading-plans-normal leading-plans-xs -tracking-6"
+            >At PLans, we believe that understanding one’s reproductive health is fundamental to taking charge of life’s journey. As a femtech company specializing in fertility and reproductive health assistance, we are dedicated to empowering women to make informed decisions about their health and future. We understand that knowledge is power, and our mission is to provide the tools and resources necessary for women to gain insights into their reproductive well-being.
+          </p>
+          <div class="md:grid-cols-3 md:mt-5 mt-4 grid grid-cols-1 gap-7">
+            <article class="col-span-1 md:pt-8 pt-4 md:pb-10 pb-7 md:px-7 px-5 bg-white rounded-2xl">
+              <img
+                class="2xl:w-24 xl:w-16 2xl:h-24 xl:h-16 w-10 h-10" 
+                src="assets/mission.png" alt="mission" loading="lazy">
+              <h3 class="_font-bold md:mb-3 mb-2 md:mt-4 mt-3 text-dark-900 2xl:text-[1.7rem] text-xl -tracking-6">Our Mission</h3>
+              <p class="text-dark-500 2xl:text-[1.5rem] xl:text-[1.1rem] text-sm lg:leading-plans-normal leading-plans-xs -tracking-6">Simplify the journey through fertility by offering innovative, user-friendly solutions designed to assist women and healthcare providers in making faster and more accurate diagnoses.</p>
+            </article>
+            <article class="col-span-1 md:pt-8 pt-4 md:pb-10 pb-7 md:px-7 px-5 bg-white rounded-2xl">
+              <img
+                class="2xl:w-24 xl:w-16 2xl:h-24 xl:h-16 w-10 h-10" 
+                src="assets/vision.png" alt="vision" loading="lazy">
+              <h3 class="_font-bold md:mb-3 mb-2 md:mt-4 mt-3 text-dark-900 2xl:text-[1.7rem] text-xl -tracking-6">Our Vision</h3>
+              <p class="text-dark-500 2xl:text-[1.5rem] xl:text-[1.1rem] text-sm lg:leading-plans-normal leading-plans-xs -tracking-6">By providing access to essential information and expert guidance, we aim to facilitate the critical conversations that need to happen between women and their medical professionals.</p>
+            </article>
+            <article class="col-span-1 md:pt-8 pt-4 md:pb-10 pb-7 md:px-7 px-5 bg-white rounded-2xl">
+              <img
+                class="2xl:w-24 xl:w-16 2xl:h-24 xl:h-16 w-10 h-10" 
+                src="assets/value.png" alt="value" loading="lazy">
+              <h3 class="_font-bold md:mb-3 mb-2 md:mt-4 mt-3 text-dark-900 2xl:text-[1.7rem] text-xl -tracking-6">Our Value</h3>
+              <p class="text-dark-500 2xl:text-[1.5rem] xl:text-[1.1rem] text-sm lg:leading-plans-normal leading-plans-xs -tracking-6">We envision a world where every woman can lead a life full of possibilities, free from uncertainties about her reproductive health. </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section id="technology">
+        <div class="xl:px-32 md:px-16 px-6 md:pt-0 pt-4 gap-60 flex items-center lg:bg-header-jumbotron bg-transparent bg-cover bg-left lg:h-[100vh] h-fit">
+          <div class="lg:w-[60%] w-full">
+            <h2 class="_font-bold mt-5 mb-2 text-primary 2xl:text-[4rem] xl:text-[3rem] text-2xl leading-[1.2] -tracking-6"
+              >Our Technology
+            </h2>
+            <p class="2xl:text-[2rem] xl:text-[1.5rem] md:text-[1.2rem] text-base text-dark-500 lg:leading-plans-md leading-plans-sm -tracking-6"
+              >At PLans, our approach combines cutting-edge technology with compassionate support. We leverage data-driven insights and advanced diagnostic tools to help women track their reproductive health more accurately and conveniently. Our platform not only assists women in understanding their health but also streamlines communication with healthcare providers, ensuring that everyone involved is well-informed and aligned on next steps.
+            </p>
+          </div>
+          <div class="pb-10 lg:block hidden self-end w-1/2">
+            <div class="px-7 py-5 min-w-[340px] w-fit h-[220px] bg-white shadow-sm rounded-3xl">
+              <h5 class="_font-bold mb-2 text-sm">My Goal</h5>
+              <div class="mb-4 flex gap-4 items-center text-xs">
+                <p class="px-3 py-2 bg-primary text-white rounded-full whitespace-nowrap"
+                  >Track Period
+                </p>
+                <p class="px-3 py-2 text-dark-900 whitespace-nowrap"
+                  >Get Pregnant
+                </p>
+                <p class="px-3 py-2 text-dark-900 whitespace-nowrap"
+                  >Track Preg
+                </p>
+              </div>
+              <div class="_scroll-box flex flex-col gap-2 text-xs h-[100px] overflow-auto">
+                <a href="#"
+                  class="px-4 py-3 flex justify-between w-full">
+                  <span class="flex items-center text-dark-850">
+                    <img src="/assets/fi_bar-chart.svg" alt="bar chart" loading="lazy"
+                      class="w-4 h-4 mr-2">
+                    Report for Doctor
+                  </span>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                <a href="#"
+                  class="px-4 py-3 flex justify-between w-full">
+                  <span class="flex items-center text-dark-850">
+                    <img src="/assets/u_chart-pie-alt.svg" alt="pie chart" loading="lazy"
+                      class="w-4 h-4 mr-2">
+                    Cycle and Ovulation
+                  </span>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                <a href="#"
+                  class="px-4 py-3 flex justify-between w-full">
+                  <span class="flex items-center text-dark-850">
+                    <img src="/assets/u_user-exclamation.svg" alt="user exclamation" loading="lazy"
+                      class="w-4 h-4 mr-2">
+                    Chat to MAIA
+                  </span>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                <a href="#"
+                  class="px-4 py-3 flex justify-between w-full">
+                  <span class="flex items-center text-dark-850">
+                    <img src="/assets/u_bell.svg" alt="bell" loading="lazy"
+                      class="w-4 h-4 mr-2">
+                    Reminder
+                  </span>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="assets/jumbotron mobile.png" alt="jumbotron mobile" loading="lazy"
+          class="lg:hidden block w-full object-contain mt-5">
+      </section>
+      <section id="founder" 
+        class="relative xl:px-32 md:px-16 px-6 md:pt-28 pt-14 overflow-hidden">
+        <div class="relative 2xl:pb-32 xl:pb-28 pb-0 z-50 col-span-2 text-center">
+        <h2 class="_font-bold md:mb-6 mb-2 text-primary 2xl:text-[4rem] xl:text-[3rem] text-2xl leading-[1.2] -tracking-6"
+          >Meet Our Founders</h2>
+        <p class="2xl:text-[2rem] xl:text-[1.5rem] md:text-[1.2rem] text-base text-dark-500 lg:leading-plans-md leading-plans-sm -tracking-6"
+          >Born from the founders' personal experiences, PLans simplifies family planning for women through personalized reproductive healthcare powered by technology. With a patient-centric approach, PLans empowers women and increases accessibility to quality reproductive healthcare.
+        </p>
+        <div class="md:mt-10 mt-2 flex justify-center flex-wrap 2xl:gap-7 gap-0">
+          <div class="pt-4 2xl:px-8 px-6 md:pb-8 pb-6 w-full xl:max-w-[30%] md:max-w-[50%]">
+            <img src="assets/founders.png" alt="profil sastya"
+              class="w-full max-h-[400px] aspect-square rounded-[20px] object-cover">
+            <div class="mt-4 text-left">
+              <span class="_font-bold text-dark-900 2xl:text-[1.5rem] text-[1.3rem] 2xl:leading-plans-normal xl:leading-plans-sxl leading-plans-xs -tracking-3"
+                >Sastya Wardani
+                <span class="_font-normal">
+                  CEO & Co-Founder
+                </span>
+              </span>
+              <p class="text-dark-750 md:text-xl text-base lg:leading-plans-sxl leading-plans-smd">
+                Certified Hormonal Specialist. An experienced venture builder with a vision to revolutionize women's healthcare, with background in finance, biotech and marketing AI. Doctorate candidate in Health at UCL.
+              </p>
+              <a href="#" class="block pt-4">
+                <i class="fa-brands fa-linkedin text-[1.6rem]" style="color: #0e76a8;"></i>
+              </a>
+            </div>
+          </div>
+          <div class="pt-4 2xl:px-8 px-6 md:pb-8 pb-6 w-full xl:max-w-[30%] md:max-w-[50%]">
+            <img src="assets/founders.png" alt="profil sastya"
+              class="w-full max-h-[400px] aspect-square rounded-[20px] object-cover">
+            <div class="mt-4 text-left">
+              <span class="_font-bold text-dark-900 2xl:text-[1.5rem] text-[1.3rem] 2xl:leading-plans-normal xl:leading-plans-sxl leading-plans-xs -tracking-3"
+                >Sandy Tantra 
+                <span class="_font-normal">
+                  CMO & Co-Founder
+                </span>
+              </span>
+              <p class="text-dark-750 md:text-xl text-base lg:leading-plans-sxl leading-plans-smd">
+                Experienced branding & marketing expert for over two decades. An avid champion of gender equality and has been a speaker at international forums, has helped more than 40 million women worldwide leverage technology.
+              </p>
+              <a href="#" class="block pt-4">
+                <i class="fa-brands fa-linkedin text-[1.6rem]" style="color: #0e76a8;"></i>
+              </a>
+            </div>
+          </div>
+          <div class="pt-4 2xl:px-8 px-6 md:pb-8 pb-6 w-full xl:max-w-[30%] md:max-w-[50%]">
+            <img src="assets/founders.png" alt="profil sastya"
+              class="w-full max-h-[400px] aspect-square rounded-[20px] object-cover">
+            <div class="mt-4 text-left">
+              <span class="_font-bold text-dark-900 2xl:text-[1.5rem] text-[1.3rem] 2xl:leading-plans-normal xl:leading-plans-sxl leading-plans-xs -tracking-3"
+                >Andoko Chandra
+                <span class="_font-normal">
+                  CTO & Co-Founder
+                </span>
+              </span>
+              <p class="text-dark-750 md:text-xl text-base lg:leading-plans-sxl leading-plans-smd">
+                A distinguished figure in the tech community with over two decades of experience managing a team of over 150, he blends his deep technical expertise with a passion for innovation in Artificial Intelligence. 
+              </p>
+              <a href="#" class="block pt-4">
+                <i class="fa-brands fa-linkedin text-[1.6rem]" style="color: #0e76a8;"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="medical-team" 
+        class="relative xl:px-32 md:px-16 px-6 md:pt-20 pt-14 overflow-hidden">
+        <div class="relative 2xl:pb-32 xl:pb-28 pb-0 z-50 col-span-2 text-center">
+        <h2 class="_font-bold md:mb-6 mb-2 text-primary 2xl:text-[4rem] xl:text-[3rem] text-2xl leading-[1.2] -tracking-6"
+          >Medical Team</h2>
+        <div class="md:mt-10 mt-2 flex flex-wrap justify-center 2xl:gap-7 gap-0">
+          <div class="pt-4 2xl:px-8 px-6 md:pb-8 pb-6 w-full xl:max-w-[30%] md:max-w-[50%]">
+            <img src="assets/founders.png" alt="profil sastya"
+              class="w-full max-h-[400px] aspect-square rounded-[20px] object-cover">
+            <div class="mt-4 text-left">
+              <span class="_font-bold text-dark-900 2xl:text-[1.5rem] text-[1.3rem] 2xl:leading-plans-normal xl:leading-plans-sxl leading-plans-xs -tracking-3"
+                >Dr Choery 
+              </span>
+              <p class="text-dark-750 md:text-xl text-base lg:leading-plans-sxl leading-plans-smd">
+                Obgyn
+              </p>
+              <a href="#" class="block pt-4">
+                <i class="fa-brands fa-linkedin text-[1.6rem]" style="color: #0e76a8;"></i>
+              </a>
+            </div>
+          </div>
+          <div class="pt-4 2xl:px-8 px-6 md:pb-8 pb-6 w-full xl:max-w-[30%] md:max-w-[50%]">
+            <img src="assets/founders.png" alt="profil sastya"
+              class="w-full max-h-[400px] aspect-square rounded-[20px] object-cover">
+            <div class="mt-4 text-left">
+              <span class="_font-bold text-dark-900 2xl:text-[1.5rem] text-[1.3rem] 2xl:leading-plans-normal xl:leading-plans-sxl leading-plans-xs -tracking-3"
+                >Dr Florencia Adeline
+              </span>
+              <p class="text-dark-750 md:text-xl text-base lg:leading-plans-sxl leading-plans-smd">
+                General Practitioner
+              </p>
+              <a href="#" class="block pt-4">
+                <i class="fa-brands fa-linkedin text-[1.6rem]" style="color: #0e76a8;"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+        <section id="consultation" class="xl:px-32 md:px-16 px-6 md:pt-28 pt-0 md:pb-36 pb-12 grid lg:grid-cols-2 grid-cols-1 md:gap-16 gap-5 overflow-hidden">
+          <div class="col-span-1 place-content-center">
+            <h2 class="_font-bold md:my-5 my-4 text-primary 2xl:text-[4rem] xl:text-[3rem] text-2xl leading-[1.2] -tracking-6"
+              >Book Consultation
+            </h2>
+            <p class="2xl:text-[1.5rem] xl:text-[1.1rem] text-base text-dark-500 lg:leading-plans-normal leading-plans-sm -tracking-6"
+              >Feel free to reach out to us through your preferred method of contact. We are eager to connect with you and explore how our digital marketing team can contribute to your success.
+            </p>
+          </div>
+          <div class="col-span-1 relative">
+            <img src="assets/blueball.png" alt="blueball" loading="lazy"
+              class="md:block hidden absolute w-80 object-contain -right-32 -top-20 z-0">
+            <img src="assets/blueball.png" alt="blueball" loading="lazy"
+              class="md:block hidden absolute w-80 object-contain -left-40 -bottom-40 z-0">
+            <form action="" class="relative 2xl:px-20 md:px-10 2xl:pt-20 md:pt-10 2xl:pb-24 md:pb-12 flex flex-col lg:gap-8 gap-4 w-full h-full md:bg-white bg-transparent rounded-3xl 2xl:text-[1.5rem] xl:text-[1.1rem] text-base font-medium z-50">
+              <input type="text" name="text" id="text" placeholder="Name"
+                class="_input-consultation 2xl:px-12 px-6 2xl:py-5 py-4 text-dark-600 w-full border border-dark-100 md:rounded-3xl rounded-xl bg-transparent focus:outline-none">
+              <input type="email" name="email" id="email" placeholder="Email"
+                class="_input-consultation 2xl:px-12 px-6 2xl:py-5 py-4 text-dark-600 w-full border border-dark-100 md:rounded-3xl rounded-xl bg-transparent focus:outline-none">
+              <input type="text" name="phonenumber" id="phonenumber" placeholder="Phone Number"
+                class="_input-consultation 2xl:px-12 px-6 2xl:py-5 py-4 text-dark-600 w-full border border-dark-100 md:rounded-3xl rounded-xl bg-transparent focus:outline-none">
+              <input type="text" name="treatment" id="treatment" placeholder="Treatment"
+                class="_input-consultation 2xl:px-12 px-6 2xl:py-5 py-4 text-dark-600 w-full border border-dark-100 md:rounded-3xl rounded-xl bg-transparent focus:outline-none">
+              <input type="text" name="preferedlocation" id="preferedlocation" placeholder="Prefered Location"
+                class="_input-consultation 2xl:px-12 px-6 2xl:py-5 py-4 text-dark-600 w-full border border-dark-100 md:rounded-3xl rounded-xl bg-transparent focus:outline-none">
+              <button type="submit" class="_font-medium 2xl:px-12 px-6 2xl:py-5 py-4 bg-primary-800 text-white rounded-full"
+                >Book a Consultation
+              </button>
+            </form>
+          </div>
+        </section>
+      </main>
+      <footer class="w-full bg-white xl:px-32 md:px-16 px-6 pt-12 pb-8 shadow-footer z-[9999]">
+        <section class="md:mb-8 mb-4 flex lg:flex-row flex-col lg:gap-0 md:gap-8 gap-6 justify-between">
+          <div class="lg:min-w-[350px] w-full">
+            <p class="_font-bold md:mb-4 mb-3 text-primary text-[1.4rem] -tracking-6">PLans</p>
+            <p class="text-dark-900 md:text-[1.1rem] text-base max-w-[350px] lg:leading-plans-sxl leading-plans-smd"
+              >PLans is lorem ipsum dolor sit amet consectetur. Fringilla velit pulvinar et viverra magna. Donec elit ipsum sem suspendisse neque scelerisque ullamcorper lectus.
+            </p>
+          </div>
+          <div class="flex flex-col gap-3 text-dark-900 lg:min-w-[350px] w-full">
+            <h5 class="_font-bold -tracking-3">Menu</h5>
+            <a href="/" class="hover:text-primary hover:underline transition-all duration-100 -tracking-3">Home</a>
+            <a href="#" class="hover:text-primary hover:underline transition-all duration-100 -tracking-3">About</a>
+            <a href="/clinics.html" class="hover:text-primary hover:underline transition-all duration-100 -tracking-3">Clinics</a>
+            <a href="#" class="hover:text-primary hover:underline transition-all duration-100 -tracking-3">Services</a>
+            <a href="#" class="hover:text-primary hover:underline transition-all duration-100 -tracking-3">Contact</a>
+          </div>
+          <div class="flex flex-col gap-3 text-dark-900 lg:min-w-[350px] w-full">
+            <h5 class="_font-bold -tracking-3">Find Us</h5>
+            <p class="text-dark-750 -tracking-3">Mon - Sat : 8am - 9pm</p>
+            <p class="-tracking-3">Jl. Merdeka Raya No.73B, Bali</p>
+            <p class="text-dark-750 -tracking-3">Contact Us</p>
+            <a href="mailto:plans@support.com" class="hover:text-primary hover:underline transition-all duration-100 -tracking-3"
+              >plans@support.com</a>
+            <a href="https://wa.me/6288888888888" class="hover:text-primary hover:underline transition-all duration-100 -tracking-3"
+              >(+62) 888 8888 8888</a>
+          </div>
+        </section>
+        <div class="md:py-4 py-3 flex md:flex-row flex-col justify-between lg:items-center items-start border-t border-[#8A8A8A] border-opacity-30">
+          <div class="flex md:flex-row flex-col flex-wrap content-start text-left gap-4 text-dark-900">
+            <p>Copyright © 2024. All right reserved</p>
+            <a href="#" class="text-primary">Privacy Policy</a>
+          </div>
+          <div class="lg:mt-0 mt-4 flex gap-4 text-primary text-[1.6rem]">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </footer>
+
+    <script src="/script/script.js"></script>
+</body>
+</html>

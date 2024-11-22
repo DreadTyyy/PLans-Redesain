@@ -15,3 +15,69 @@
 ._scroll-none::-webkit-scrollbar-thumb:hover {
     background: transparent;
 }
+
+._content-blog {
+    h1 {
+        font-size: 160%;
+        color: #212121;
+    }
+    h2 {
+        font-size: 150%;
+        color: #212121;
+    }
+    h3 {
+        font-size: 130%;
+        color: #212121;
+    }
+    h4 {
+        font-size: 130%;
+        color: #212121;
+    }
+    h5 {
+        font-size: 120%;
+        color: #212121;
+    }
+    ul {
+        list-style: disc;
+        padding-left: 2.5rem;
+    }
+    ol {
+        list-style: decimal;
+        padding-left: 2rem;
+    }
+    ol + p {
+        padding-left: 2rem;
+    }
+    p:has(img) {
+        align-self: center;
+    }
+}
+
+@media (max-width: 768px) {
+    ._content-blog {
+        h1 {
+            font-size: 130%;
+        }
+        h2 {
+            font-size: 125%;
+        }
+        h3 {
+            font-size: 120%;
+        }
+        h4 {
+            font-size: 115%;
+        }
+        h5 {
+            font-size: 110%;
+        }
+        ul {
+            padding-left: 1.5rem;
+        }
+        ol {
+            padding-left: 1rem;
+        }
+        ol + p {
+            padding-left: 1rem;
+        }
+    }   
+}

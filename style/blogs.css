@@ -51,6 +51,7 @@
     }
     p:has(img) {
         align-self: center;
+        margin: 2rem 0;
     }
 }
 

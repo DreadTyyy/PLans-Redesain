@@ -1784,6 +1784,16 @@ video {
   color: rgb(130 130 130 / var(--tw-text-opacity));
 }
 
+.placeholder\:text-dark-900::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(33 33 33 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-dark-900::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(33 33 33 / var(--tw-text-opacity));
+}
+
 .hover\:bg-primary-800\/20:hover {
   background-color: rgb(58 137 255 / 0.2);
 }

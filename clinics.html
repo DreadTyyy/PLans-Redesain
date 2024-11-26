@@ -107,22 +107,24 @@
         <div class="col-span-2 flex flex-col gap-3">
             <label for="country" class="_font-bold -tracking-2">Country</label>
             <div class="_select-wrapper">
-              <select name="country" id="country" class="py-3 px-6 bg-[#F8F8F8] border border-[#EAEAEA] focus:outline-none rounded-lg">
-                <option value="" selected disabled class="-tracking-2">All Country</option>
-                <option value="indonesia" class="-tracking-2">Indonesia</option>
-                <option value="english" class="-tracking-2">English</option>
-              </select>
+              <input list="countries" id="country" name="country" placeholder="All Country" autocomplete="off"
+                class="py-3 px-6 bg-[#F8F8F8] w-full border border-[#EAEAEA] focus:outline-none rounded-lg placeholder:text-dark-900">
+              <ul id="countries" class="dropdown-list">
+                <li value="Indonesia" class="-tracking-2">Indonesia</li>
+                <li value="English" class="-tracking-2">English</li>
+              </ul>
               <i class="fa fa-chevron-down chevron-icon"></i>
             </div>
         </div>
         <div class="col-span-2 flex flex-col gap-3">
-            <label for="country" class="_font-bold -tracking-2">Clinics Name</label>
+            <label for="service" class="_font-bold -tracking-2">Services</label>
             <div class="_select-wrapper">
-              <select name="country" id="country" class="py-3 px-6 bg-[#F8F8F8] border border-[#EAEAEA] focus:outline-none rounded-lg">
-                <option value="" selected disabled class="-tracking-2">All Country</option>
-                <option value="indonesia" class="-tracking-2">Indonesia</option>
-                <option value="english" class="-tracking-2">English</option>
-              </select>
+              <input list="services" id="service" name="service" placeholder="All Services" autocomplete="off"
+                class="py-3 px-6 bg-[#F8F8F8] w-full border border-[#EAEAEA] focus:outline-none rounded-lg placeholder:text-dark-900">
+              <ul id="services" class="dropdown-list">
+                <li value="Indonesia" class="-tracking-2">Indonesia</li>
+                <li value="English" class="-tracking-2">English</li>
+              </ul>
               <i class="fa fa-chevron-down chevron-icon"></i>
             </div>
         </div>
@@ -376,5 +378,6 @@
     </footer>
 
     <script src="./script/script.js"></script>
+    <script src="./script/dropdown.js"></script>
 </body>
 </html>
